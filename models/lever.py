@@ -87,7 +87,7 @@ class Lever:
         self.save_state()
         return "System resumed"
 
-    def state(self):
+    def get_state(self):
         return {
             "position": self.position,
             "heat": self.heat,
